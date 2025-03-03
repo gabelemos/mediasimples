@@ -207,7 +207,7 @@ hr {
         margin-top: 15px;
     }
     .active, .non-active {
-        font-size: 12px; 
+        font-size: 8px; 
     }
     .iframe {
         width:300px;
@@ -276,25 +276,35 @@ hr {
 }
 @media(max-width: 600px) {
     .card-contact img {
-        padding-left: 20%;
+        padding-left: 58px;
         padding-right: 20px;
+    }
+    .card-contact i {
+        margin-top: 90px;
     }
     .card-contact {
         flex-direction: column;
-        height: 65vh;
+        height: 550px;
     }
     .text-card {
         text-align: center;
         margin-left: 30px;
     }
     .text-card h5 {
-        width: 350px;
+        margin-left: -22px;
+        width: 341px;
     }
     .text-card h2 {
         margin-left: 10px;
     }
-    .text-card a, .iGmail {
+    .text-card a {
         margin-left: 20px;
+    }
+    .iGmail {
+        margin-left: -20px;
+    }
+    .iInstagram {
+        margin-right: -30px;
     }
     .content-tecnoInfo h1 {
         font-size: 35px;
